@@ -7,6 +7,10 @@ const outputConfig = {
   dataformRepositoryName: "<your dataform repository>",
   dataformRepositoryLocation: "<your datafrom repository location>",
 };
-
-const tableToJson = new TableToJson({ query, outputConfig });
+const notebookConfig = {
+  dependencyTargets: [{ name: "prepare_config" }],
+  tags: ["daily"],
+  description: "This notebook converts a table to a JSON file.",
+};
+const tableToJson = new TableToJson({ query, outputConfig, notebookConfig });
 tableToJson.publish();

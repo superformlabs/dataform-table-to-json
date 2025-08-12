@@ -129,7 +129,7 @@ class TableToJson {
 
     notebook({
       ...this._notebookConfig,
-      filename: "./definitions/table_to_json.ipynb",
+      filename: "./table_to_json.ipynb",
     }).ipynb(this._file_context);
   }
 }

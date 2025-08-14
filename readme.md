@@ -31,7 +31,7 @@ To install this package in your Dataform repository, add it to your `package.jso
 {
   "dependencies": {
     "@dataform/core": "3.0.27",
-    "dataform-table-to-json": "https://github.com/superformlabs/dataform-table-to-json/archive/refs/tags/v0.0.1.tar.gz"
+    "dataform-table-to-json": "https://github.com/superformlabs/dataform-table-to-json/archive/refs/tags/v0.0.6.tar.gz"
   }
 }
 ```

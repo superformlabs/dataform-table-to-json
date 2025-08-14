@@ -129,7 +129,7 @@ class TableToJson {
 
     notebook({
       ...this._notebookConfig,
-      filename: "../includes/table_to_json.ipynb",
+      filename: "../node_modules/dataform-table-to-json/includes/table_to_json.ipynb",
     }).ipynb(this._file_context);
   }
 }
